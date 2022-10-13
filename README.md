@@ -10,7 +10,7 @@ int main() {
     cin >> n;
 
     if (n < 0)
-        cout << "Error! Factorial of a negative number doesn't exist.";
+        cout << "Factorial of a negative number doesn't exist.";
     else {
         for(int i = 1; i <= n; ++i) {
             factorial *= i;
